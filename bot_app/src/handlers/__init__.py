@@ -1,0 +1,3 @@
+from ._callbacks import register_callback_query_handlers
+from ._errors import register_error_handlers
+from ._messages import register_message_handlers

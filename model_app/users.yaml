@@ -1,0 +1,4 @@
+# only users from this file can request the application
+# each row represents a (username, password) pair
+# password hash can be generated via the python function `werkzeug.security.generate_password_hash`
+bot_app: "pbkdf2:sha256:260000$bzLnIFdiuIt4mENV$a2a21e6641b961e006cbcf670be1a73a8a82f90155f00cb57a490eed704a655f"

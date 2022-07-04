@@ -1,0 +1,15 @@
+bot_app:
+  # unique api token of the telegram bot
+  api_token: "PUT YOUR TOKEN HERE"
+
+  # whether to reject not trusted ssl certificates when making requests
+  verify_ssl: False
+
+model_app:
+  # api url path of the model application
+  model_url: "https://127.0.0.1:5000"
+
+  # username to sign in
+  username: bot_app
+  # password to sign in
+  password: bot_app
