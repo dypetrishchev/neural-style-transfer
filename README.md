@@ -2,10 +2,10 @@
 
 ## Table of Contents:
 - [Introduction](#Introduction)
-- [DL Techniques](#DL Techniques)
+- [DL Techniques](#DL-Techniques)
 - [Architecture](#Architecture)
-  - [Model Application](#Model Application)
-  - [Telegram Bot Application](#Telegram Bot Application)
+  - [Model Application](#Model-Application)
+  - [Telegram Bot Application](#Telegram-Bot-Application)
 - [Installation](#Installation)
 
 ## Introduction
