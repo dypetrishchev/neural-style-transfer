@@ -102,7 +102,7 @@ When the result is ready, the bot sends it back to the user.
 - Clone this repo:
 ```bash
 git clone https://github.com/dypetrishchev/neural-style-transfer
-cd neural_style_transfer
+cd neural-style-transfer
 ```
 
 - Install python requirements:
