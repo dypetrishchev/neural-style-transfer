@@ -1,7 +1,7 @@
 """Module provides custom models that are used to transfer a style from one image to another."""
 
 from copy import deepcopy
-from typing import Iterable, Tuple
+from typing import Iterable, Tuple, Union
 
 import torch
 import torch.nn as nn
@@ -19,8 +19,8 @@ class NeuralAlgorithmModel(nn.Module):
         style_img: torch.Tensor,
         content_ids: Iterable,
         style_ids: Iterable,
-        mean: list | tuple = (0.485, 0.456, 0.406),
-        std: list | tuple = (0.229, 0.224, 0.225),
+        mean: Union[list, tuple] = (0.485, 0.456, 0.406),
+        std: Union[list, tuple] = (0.229, 0.224, 0.225),
         device: str = ("cpu" if not torch.cuda.is_available() else "cuda")
     ):
         """
@@ -64,8 +64,8 @@ class NeuralAlgorithmModel(nn.Module):
         style_img: torch.Tensor,
         content_ids: Iterable,
         style_ids: Iterable,
-        mean: list | tuple = None,
-        std: list | tuple = None
+        mean: Union[list, tuple] = None,
+        std: Union[list, tuple] = None
     ) -> Tuple[nn.Module, list, list]:
         """
         Construct a style transfer model instance using backbone model layers.
