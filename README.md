@@ -88,7 +88,7 @@ it's time-consuming and requires the image to be cropped:
 ### Telegram Bot Application
 
 This is a fully asynchronous bot that uses the official [HTTP-based API](https://core.telegram.org/bots/api)
-to communicate with users via the ["Telegram" messanger](https://telegram.org/).
+to communicate with users via the ["Telegram" messenger](https://telegram.org/).
 
 The bot leads a user through the chat script to get required information:
 - style to be transferred
