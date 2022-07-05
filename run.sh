@@ -72,3 +72,5 @@ else
 fi
 
 echo All services have been started
+
+cd "$CURR_PATH"
