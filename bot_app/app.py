@@ -34,6 +34,7 @@ async def main():
     register_error_handlers(dp)
 
     try:
+        await dp.skip_updates()
         await dp.start_polling()
     finally:
         await dp.storage.close()
